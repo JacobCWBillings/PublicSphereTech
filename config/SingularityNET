@@ -1,0 +1,37 @@
+#!/bin/bash
+
+# Create main script
+touch main.py
+
+# Create configuration file
+touch config.py
+
+# Create services directory
+mkdir services
+
+# Create a sample service directory
+mkdir services/face_recognition
+
+# Create files specific to the face recognition service
+touch services/face_recognition/face_recognition_helper.py
+touch services/face_recognition/preprocess_data.py
+
+# Create utils directory
+mkdir utils
+
+# Create utility function file
+touch utils/common_utils.py
+
+# Create data directory
+mkdir data
+
+# Create a tests directory
+mkdir tests
+
+# Create a sample test file
+touch tests/test_face_recognition.py
+
+# Create README file
+touch README.md
+
+
