@@ -1,0 +1,43 @@
+mkdir -p origintrail_reader/origintrail_client && \
+echo "NODE_RPC_URL = 'https://my.origintrail.node:8900'" > origintrail_reader/config.py && \
+echo "from origintrail_client.data_reader import OriginTrailDataReader
+
+def main():
+    # Initialize the OriginTrail data reader
+    otr_reader = OriginTrailDataReader()
+
+    # Replace 'data_id' with the actual ID of the data asset you want to read
+    data_id = 'some-data-asset-id'
+    data = otr_reader.read_data(data_id)
+    
+    if data:
+        print(f'Data for asset {data_id}: {data}')
+    else:
+        print(f'No data found for asset {data_id}.')
+
+if __name__ == '__main__':
+    main()" > origintrail_reader/main.py && \
+touch origintrail_reader/origintrail_client/__init__.py && \
+echo "import requests
+from config import NODE_RPC_URL
+
+class OriginTrailDataReader:
+
+    def __init__(self):
+        self.node_rpc_url = NODE_RPC_URL
+
+    def read_data(self, data_id):
+        # In a real application, you'd interact with the OriginTrail node via its API
+        # Here's an example of what a request might look like, details will vary:
+        endpoint = f'{self.node_rpc_url}/api/data/{data_id}'
+        response = requests.get(endpoint)
+
+        if response.status_code == 200:
+            # Parse the response JSON to retrieve the actual data
+            data = response.json()
+            return data
+        else:
+            # Handle errors (e.g., data not found, wrong data ID, connection error)
+            response.raise_for_status()" > origintrail_reader/origintrail_client/data_reader.py && \
+echo "Python files and directory structure for OriginTrail reader created."
+

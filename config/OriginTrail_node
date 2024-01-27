@@ -1,0 +1,61 @@
+#!/bin/bash
+
+# Exit immediately if a command exits with a non-zero status.
+set -e
+
+# Step 1: Update and upgrade system packages
+echo "Updating and upgrading system packages..."
+sudo apt update && sudo apt upgrade -y
+
+# Step 2: Install Node.js, npm, and build-essential package
+echo "Installing Node.js, npm, and build essentials..."
+curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+sudo apt-get install -y nodejs build-essential
+
+# Step 3: Install Docker
+echo "Installing Docker and adding user to the Docker group..."
+sudo apt install -y apt-transport-https ca-certificates curl software-properties-common
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+sudo apt update
+sudo apt install -y docker-ce
+
+# Add the executing user to the docker group
+sudo usermod -aG docker ${USER}
+
+# Install Docker Compose
+echo "Installing Docker Compose..."
+sudo curl -L "https://github.com/docker/compose/releases/download/v2.5.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+
+# Step 4: Install OriginTrail Node
+echo "Cloning OriginTrail node repository..."
+git clone https://github.com/OriginTrail/ot-node.git
+
+# Enter the directory
+cd ot-node
+
+# Check out the specific Node version
+# Note: Replace <version-tag> with the specific version you want to install
+git checkout <version-tag>
+
+# Copy the example configuration file
+echo "Setting up the environment configuration..."
+cp .env.example .env
+
+# Edit the .env configuration file
+# You should manually set the NODE_WALLET, RPC_SERVER, and other necessary variables in the .env file
+echo "Please configure your .env file with appropriate variables."
+echo "Press any key to continue to the editor or exit (Ctrl+C) to configure it later..."
+read
+
+# Open the .env file with the nano editor, you can use any editor of your liking
+nano .env
+
+# Step 5: Start the OriginTrail Node
+echo "Starting the OriginTrail node..."
+docker-compose -f docker-compose.yml up -d
+
+# Step 6: Monitor the Node (Optional step for confirming the node is running)
+echo "The OriginTrail node has been started."
+

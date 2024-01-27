@@ -1,0 +1,42 @@
+#!/bin/bash
+
+# Exit immediately if a command exits with a non-zero status.
+set -e
+
+# Configuration parameters with fake inputs
+NODE_WALLET="0xMYWALLETADDRESS1234567890" # Replace with your actual wallet address
+NODE_WALLET_PASSWORD="nodeWalletPassword" # Replace with your wallet password
+RPC_SERVER="https://my.rpc.server" # Replace with your actual RPC server URL
+EXTERNAL_IP="127.0.0.1" # Replace with the server's actual external IP
+NODE_HOSTNAME="my-node-hostname.com" # Replace with your actual node hostname
+
+# Define the location of the .env file
+ENV_FILE="./ot-node/.env"
+
+# Check if the .env file exists at the specified location
+if [ -f "$ENV_FILE" ]; then
+    echo "The .env file exists, proceeding with configuration..."
+else 
+    echo "Error: .env file does not exist. Please ensure you have cloned the ot-node repository."
+    exit 1
+fi
+
+# Configure the .env file with fake inputs
+echo "Configuring the .env file..."
+
+cat > "$ENV_FILE" <<EOL
+# Node wallet address
+NODE_WALLET=${NODE_WALLET}
+NODE_WALLET_PASSWORD=${NODE_WALLET_PASSWORD}
+# RPC server URL
+RPC_SERVER=${RPC_SERVER}
+# External IP of the host
+EXTERNAL_IP=${EXTERNAL_IP}
+# Hostname for the node
+NODE_HOSTNAME=${NODE_HOSTNAME}
+# Additional environment variables
+# ... Add other environment variables as needed ...
+EOL
+
+echo "Configuration of the .env file is complete."
+
