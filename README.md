@@ -1,28 +1,19 @@
 # Public Sphere Technologies
 
-Why, when humanity can work together to exceed our wildest dreams, do we continue to behave as petty tribes, violating each other, for the sake of artifically scarce resources? 
-Our hypothesis is that humanity has yet to develop the necessary infrastructure to enunciate a shared story for who we are, and for what we should be doing now and in the future. 
-Fortunately, this era of telecommunications AI and the internet affords us with all that we require to finally converse with the whole of humanity.
+Why, when humanity can work together to meet and exceed our wildest dreams, do we continue to behave as petty tribes, violating one another, for the sake of artifically scarce resources? 
+Our hypothesis is that while humanity has developed abundant means to feed and to shelter herself, we have yet to develop the necessary infrastructure to enunciate a shared story for who we are, and for what we should be doing with one another. 
+Fortunately, the current era of telecommunications AI and the internet affords humanity with all that we require to finally compose an equitable and sustainable global discourse system.
 
-From this perspective, global peace and prosperity is a networking problem. Figure 1 displays, in the abstract, a story of four tribes --  an abstract model of 
+From this perspective, global peace and prosperity is, at root, a networking problem. 
+Figure 1 displays this concept in the abstract. As we move from left to right across the figure, humanity leverages novel communications devices (dashed and dotted lines) to incrementally build a more fully inter-connected and collaborative species. 
+The leftmost panel depicts the state of nature, wherein physical co-location allows vocal communication to establish a sense of tribal unity. 
+The center panel describes any of several high-utility/low-availability communications systems that facilitate long-range connections between tribes.
+Examples of these communications systems include, e.g.: printing presses, telegraph and rail lines, congressional seats, social media servers, etc.
+Critically, these types of communications systems have been very costly to create and to maintain. 
+Thus, few individuals obtain to these communications systems.
+Those who do act as hubs, mediating interactions between local and remote "tribes." 
+The rightmost panel leverages high-utility/high-availability communications systems -- e.g. digital networks -- to allow people to communicate at-will with any and all other persons.
 
 | ![Social hieararchies are directly established by certain social network architectures.](/images/NetworkTopologies.png "Social hieararchies are directly established by certain social network architectures.") |
 |:--:| 
-| *Figure 1:* Hello |
-
-towards a globally equitable political economy. 
-And, until this infrastructure is built, individual nations exist in a state of ungovernable anarchy with respect to one another.
-Under such a condition, capitalistic and militaristic imperialism may yet achieve short-term gains for local populations.
-But as humanity emerges into a global civil society, the essentially destructive practices of today may be understood to be a cancer that drags each and every one further and further into crisis.
-
-
-Absence the under which self-interested agents may work in opposition to one another with the hope of achieving short-term gains.
-
-
-Globally, we produce enough food to There is enough arable landSimply looking at food production: a family of 4 can 
-There is sufficient arible land for each  to support a global population twice our size, and enough renewable energy to powerShould we decide to work together, there is sufficient arible land on this planet to support twice the current population. The sun provides more energy per day that we might otherwise develope in cooperation? In the long term, natural resources are practically limitless. 
-
-In the wake of WWII psychologists and sociologists alike asked this very question. And now, as humanity faces several more anthropogenic metacrises, we might look to conclusions of the past in order to discover how to arrive at a more sustainable and cooperative tomorrow. 
-
-Critical theorist Jürgen Habermas 
-
+| *Figure 1* displays three kinds of social network topographies. Part A features four disconnected tribes. Each tribe's internal connections are produced through person-to-person contact and communication. Part B includes several long-range connections (dashed lines) between certain members (black diamonds) of each tribe. Each well-connected tribal member is a hub, filtering communication between their and the other tribes. Moreover, the high degree of connectivity among tribal hubs creates a "rich-club" supporting internal collusion. This network topography is the current state of most long-range social networks -- e.g., representative democracies, the UN, OPEC, etc. Part C depicts a network model wherein all participants may communicate with any other member in just two steps (dotted lines) via a common database (circumferential ring).|
