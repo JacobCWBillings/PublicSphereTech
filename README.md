@@ -34,8 +34,8 @@ As a proof-of-concept: milestone 1 recruits a pre-existing information analytics
 #### Part 1.1: General system configuration
 The foundation of Public Sphere Tech comprises a robust, onchain, I/O infrastructure. 
 The following steps install and configure a bare-metal I/O node which will later be used to launch user-facing public sphere applications.
-  &nbsp; ##### Step 1.1.1: Configure OriginTrail Node
-  ##### Step 1.1.2: Configure SingularityNet Node
+  ##### &nbsp; Step 1.1.1: Configure OriginTrail Node
+  ##### &nbsp; Step 1.1.2: Configure SingularityNet Node
   ##### Step 1.1.3: Test local communication between OriginTrail data and SingularityNet analysis
   ##### Step 1.1.4: Test onchain communication between OriginTrail data and SingularityNet analysis
 
