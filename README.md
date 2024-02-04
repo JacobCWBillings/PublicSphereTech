@@ -36,8 +36,8 @@ The foundation of Public Sphere Tech comprises a robust, onchain, I/O infrastruc
 The following steps install and configure a bare-metal I/O node which will later be used to launch user-facing public sphere applications.
   ##### &nbsp; Step 1.1.1: Configure OriginTrail Node
   ##### &nbsp; Step 1.1.2: Configure SingularityNet Node
-  #####   Step 1.1.3: Test local communication between OriginTrail data and SingularityNet analysis
-  #####     Step 1.1.4: Test onchain communication between OriginTrail data and SingularityNet analysis
+  ##### &nbsp; &nbsp; Step 1.1.3: Test local communication between OriginTrail data and SingularityNet analysis
+  ##### &nbsp;&nbsp;Step 1.1.4: Test onchain communication between OriginTrail data and SingularityNet analysis
 
 #### Part 1.2: Integration with CHSI (Collective Human SuperIntelligence)
 CHSI is an independent project built by Victor Piper and Jaemen Shen. 
