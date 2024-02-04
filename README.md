@@ -32,10 +32,12 @@ The state-of-the-art in blockchain-native information I/O tools are 1) OriginTra
 To this end, milestone one installs and configures OriginTrail + SingularityNET to host a suite of user-facing information I/O tools.
 As a proof-of-concept: milestone 1 recruits a pre-existing information analytics tool from a partner organizations: Collective Human SuperIntelligence (CHSI) by radish.org. 
 #### Part 1.1: General system configuration
-##### Step 1.1.1: Configure OriginTrail Node
-##### Step 1.1.2: Configure SingularityNet Node
-##### Step 1.1.3: Test local communication between OriginTrail data and SingularityNet analysis
-##### Step 1.1.4: Test onchain communication between OriginTrail data and SingularityNet analysis
+The foundation of Public Sphere Tech comprises a robust, onchain, I/O infrastructure. 
+The following steps install and configure a bare-metal I/O node which will later be used to launch user-facing public sphere applications.
+  ##### Step 1.1.1: Configure OriginTrail Node
+  ##### Step 1.1.2: Configure SingularityNet Node
+  ##### Step 1.1.3: Test local communication between OriginTrail data and SingularityNet analysis
+  ##### Step 1.1.4: Test onchain communication between OriginTrail data and SingularityNet analysis
 
 #### Part 1.2: Integration with CHSI (Collective Human SuperIntelligence)
 CHSI is an independent project built by Victor Piper and Jaemen Shen. 
@@ -43,12 +45,12 @@ The aim of the application is to connect individuals holding shared interests; s
 At root, the application transforms vocal conversations into a knowledge graph describing the topics of those conversations.
 These knowledge assets may be compared to suggest to participants likely inividuals, from other conversations, who share similar interests.
 This, with the goal of connecting individuals into common interest groups.
-##### Step 1.2.1: Ingest spoken conversation uploads
-##### Step 1.2.2: Convert spoken conversation into text transcription
-##### Step 1.2.3: Convert text transcript into knowledge graph
-##### Step 1.2.4: Add conversation knowledge graph to DKG 
-##### Step 1.2.5: Visually analyze knowledge assets for commonalities
-##### Step 1.2.6: Create front-end-interface for visual analytics
+  ##### Step 1.2.1: Ingest spoken conversation uploads
+  ##### Step 1.2.2: Convert spoken conversation into text transcription
+  ##### Step 1.2.3: Convert text transcript into knowledge graph
+  ##### Step 1.2.4: Add conversation knowledge graph to DKG 
+  ##### Step 1.2.5: Visually analyze knowledge assets for commonalities
+  ##### Step 1.2.6: Create front-end-interface for visual analytics
 
 ### Milestone 2: AI assisted Proposal Generation and Review
 
