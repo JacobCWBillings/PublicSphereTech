@@ -26,19 +26,35 @@ Each application builds upon prior progress towards the long-term vision of a gl
 The immediate application development goals are described in the following milestones.
 
 ### Milestone 1: I/O Systems Foundations, OriginTrail + SingularityNET
+A natural place to begin is with the integration of data storage and data analysis tools into a common framework.
+And, whereas the ultimate goal is to build trustless and scalable information I/O tools, it makes sense to utilize blockchain technologies as a core design feature.
+The state-of-the-art in blockchain-native information I/O tools are 1) OriginTrail Distributed Knowledge Graphs, and 2) SingularityNET distributed AI analytics applications.
+To this end, milestone one installs and configures OriginTrail + SingularityNET to host a suite of user-facing information I/O tools.
+As a proof-of-concept: milestone 1 recruits a pre-existing information analytics tool from a partner organizations: Collective Human SuperIntelligence (CHSI) by radish.org. 
 #### Part 1.1: General system configuration
+##### Step 1.1.1: Configure OriginTrail Node
+##### Step 1.1.2: Configure SingularityNet Node
+##### Step 1.1.3: Test local communication between OriginTrail data and SingularityNet analysis
+##### Step 1.1.4: Test onchain communication between OriginTrail data and SingularityNet analysis
 
 #### Part 1.2: Integration with CHSI (Collective Human SuperIntelligence)
+CHSI is an independent project built by Victor Piper and Jaemen Shen. 
+The aim of the application is to connect individuals holding shared interests; so as to catalyze the proliferation of those interests.
+At root, the application transforms vocal conversations into a knowledge graph describing the topics of those conversations.
+These knowledge assets may be compared to suggest to participants likely inividuals, from other conversations, who share similar interests.
+This, with the goal of connecting individuals into common interest groups.
+##### Step 1.2.1: Ingest spoken conversation uploads
+##### Step 1.2.2: Convert spoken conversation into text transcription
+##### Step 1.2.3: Convert text transcript into knowledge graph
+##### Step 1.2.4: Add conversation knowledge graph to DKG 
+##### Step 1.2.5: Visually analyze knowledge assets for commonalities
+##### Step 1.2.6: Create front-end-interface for visual analytics
 
-#### Part 1.3: Integration with RnDAO TogetherCrew Knowledge Graph
+### Milestone 2: AI assisted Proposal Generation and Review
 
-### Milestone 2: 
+### Milestone 3: Visualizing global communities
 
-### Milestone 3:
-
-### Milestone 4:
-
-
+### Milestone 4: Detailing the Global Public Sphere
 
 
 
