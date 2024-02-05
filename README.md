@@ -34,12 +34,12 @@ Very likely, the transition away from humanity's reliance on privelaged hubs is 
 How many rationally self-interested persons have the foresight to empower all people towards a more verdant and sustainable tomorrow?
 
 Fortunately, a wide range of grass-roots efforts are well underway to effectuate large-scale collective intelligence.
-The most critical of these efforts are systems that establish distributed information I/O, i.e., distributed ledger technologies and their associated distributed applications (dapps).
-These systems establish a high-utility/low-cost I/O layer, via which any and all persons may interact with one another.
-But whereas these systems provide a means for people to interact, "big-data" is notoriously difficult to handle sensably.
-Thus, the second most critical tool are computational techniques from machine learning and artificial intelligence that are well equipped for navigating massive databases.
-When combined, distributed I/O systems and AI provide all the tools the grass-roots community needs to link humanity together into an ongoing global conversation.
-Within our lifetimes, humainty is well-posed to rest in the same (digital) congress, to shout as loud as each would please about whatever is in their hearts, and to resolve that cocaphany into actionable policies.
+The most critical of these efforts are systems that establish distributed I/O, i.e., distributed ledger technologies and the distributed applications (dapps) that utilize them.
+These systems establish a high-utility/low-cost I/O layer, through which any and all persons may interact with one another.
+But whereas these systems provide a means for people to interact, "big-data" is notoriously difficult to handle, sensably.
+This impasse raise a second critical tool: computational techniques from machine learning and artificial intelligence (especially Large-Language Models (LLMs)).
+When combined, distributed I/O systems and modern computational techniques provide everything necessary for grass-roots communities to link humanity together into an ongoing global conversation.
+Armed with these tools, humanity is well-posed to amass amid a common (digital) congress, to shout as loud as each would please about whatever may be in their hearts, and to resolve that cocaphany into the details of a just and sustainable global political economy.
 
 ## Near-term Goals
 *Public Sphere Tech* (PST) comprises a suite of applications to facilitate scalable coordination. 
@@ -52,7 +52,7 @@ And, whereas the ultimate goal of PST is to build trustless and scalable informa
 The state-of-the-art in blockchain-native information I/O tools are 1) OriginTrail Distributed Knowledge Graphs, and 2) SingularityNET distributed AI analytics applications.
 To this end, milestone one installs and configures OriginTrail + SingularityNET to host a suite of user-facing information I/O tools.
 As a proof-of-concept: milestone 1 recruits a pre-existing information analytics tool from a partner organizations: Collective Human SuperIntelligence (CHSI) by radish.org. 
-#### Part 1.1: General system configuration
+#### Part 1. 1: General system configuration
 The foundation of Public Sphere Tech is robust, on-chain, I/O infrastructure. 
 To this end, following steps install and configure state-of-the-art blockchain-native I/O tools onto a bare-metal node.
 This node will be used to test and to launch user-facing public sphere applications.
@@ -75,8 +75,9 @@ This, with the goal of connecting individuals into common interest groups.
   ##### &nbsp; &nbsp; Step 1.2.6: Create front-end-interface for visual analytics
 
 ### Milestone 2: AI assisted Proposal Generation and Review
-
-
+Whereas integration of CHSI into the PST's distributed I/O system affords one use case  into how data analytics of unstructured text; the long term goal of PST is to enable gubanatorial policies to emerge from large-scale conversations.
+Towards this 
+By targeting this community, Milestone 2 aims to drive adoption of the previously constructed I/O systems foundations, built atop OriginTrail and SingularityNet. 
 
 Grant proposals can be laborious to write and to review. Current best practices make explicit the proposal draft format, and the proposal review criteria, to assist authors and reviewers in communicating linchpin features of the proposal's significance and design. None-the-less, key ideas may be lost in the communication process, making the time to draft and review proposals lost to all involved parties. 
 
