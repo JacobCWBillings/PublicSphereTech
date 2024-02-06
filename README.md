@@ -19,7 +19,7 @@ These types of networks are termed "small-world."
 The term denotes the proliferation of local clustering (the tribes), alongside the existence of key long-range connections between clusters (the hubs).
 Critically, if the hubs, themselves, are clustered together; the small-world network may also posess a "rich-club."
 The rightmost panel leverages high-utility/low-cost communications systems -- e.g. digital networks -- which allow all people to coordinate, at-will, with any and all other persons.
-This type of network may be considered "fully connected," albiet, with individual interest and attention filtering information flow between each person and the mutually-accessible digital I/O communications backbone.
+This type of network may be considered "fully connected," albeit, with individual interest and attention filtering information flow between each person and the mutually-accessible digital I/O communications backbone.
 
 | ![Social hieararchies are directly established by certain social network architectures.](/images/NetworkTopologies.png "Social hieararchies are directly established by certain social network architectures.") |
 |:--:| 
