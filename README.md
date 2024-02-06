@@ -52,7 +52,7 @@ And, whereas the ultimate goal of PST is to build trustless and scalable informa
 The state-of-the-art in blockchain-native information I/O tools are 1) OriginTrail Distributed Knowledge Graphs, and 2) SingularityNET distributed AI analytics applications.
 To this end, milestone one installs and configures OriginTrail + SingularityNET to host a suite of user-facing information I/O tools.
 As a proof-of-concept: milestone 1 recruits a pre-existing information analytics tool from a partner organizations: Collective Human SuperIntelligence (CHSI) by radish.org. 
-#### Part 1. 1: General system configuration
+#### Part 1.1: General system configuration
 The foundation of Public Sphere Tech is robust, on-chain, I/O infrastructure. 
 To this end, following steps install and configure state-of-the-art blockchain-native I/O tools onto a bare-metal node.
 This node will be used to test and to launch user-facing public sphere applications.
@@ -73,6 +73,8 @@ This, with the goal of connecting individuals into common interest groups.
   ##### &nbsp; &nbsp; Step 1.2.4: Add conversation knowledge graph to DKG 
   ##### &nbsp; &nbsp; Step 1.2.5: Visually analyze knowledge assets for commonalities
   ##### &nbsp; &nbsp; Step 1.2.6: Create front-end-interface for visual analytics
+
+#### Impact:
 
 ### Milestone 2: Sustainable Business: AI assisted Proposal Generation and Review
 The focus of milestone 2 is to build a sustainable business, while also furthering our group's capacities to facilitate multi-agent negotiations.
@@ -109,16 +111,30 @@ Still absent are user-friendly platforms that guide authors and reviewers throug
 The current proposal apples open-source advances in state-of-the-art AI to solve standing problems for distributed self-governance. 
 While none of the technologies proposed here-in are novel in their own right, their novel combination stands to make the proposal authorship and review process much more efficient and engaging.
 
+#### Part 2.1.: Translate proposal text into KG
+##### &nbsp; &nbsp; Step 2.1.1: 
+
+#### Part 2.2.: NSAI-enabled proposal review
+##### &nbsp; &nbsp; Step 2.2.1: 
+
+#### Part 2.3.: Translate KG into long-form proposal
+##### &nbsp; &nbsp; Step 2.3.1: 
+
+#### Impact:
+
 ### Milestone 3: Publicity and Engagement: Visually Analysis of Large-Scale Social Networks
 Milestone 3 aims to drive public-interest and engagement with PST.
 To do so, we will produce an application having both a low barrier of entry and also a high degree of social stimulation.
 Specifically, the application will ingest each user's pre-existing social-media data, and translate that data into a user-specific KG.
 From there, the application will allow users to visually analyze areas of overlap (and any gaps) between their KG and the KG's from other users populating our expanding database.
 
+#### Part 3.1.: Translate social-media data into KG
+##### &nbsp; &nbsp; Step 3.1.1: 
 
+#### Part 3.2.: Embed multiple KGs into 2-dimensions
+##### &nbsp; &nbsp; Step 3.2.1: 
 
+#### Part 3.3.: Present methods for searching through KG manifolds
+##### &nbsp; &nbsp; Step 3.3.1: 
 
-
-
-
-
+#### Impact:
