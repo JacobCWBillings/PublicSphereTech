@@ -41,6 +41,8 @@ This impasse raise a second critical tool: computational techniques from machine
 When combined, distributed I/O systems and modern computational techniques provide everything necessary for grass-roots communities to link humanity together into an ongoing global conversation.
 Armed with these tools, humanity is well-posed to amass amid a common (digital) congress, to shout as loud as each would please about whatever may be in their hearts, and to resolve that cocaphany into the details of a just and sustainable global political economy.
 
+
+
 ## Near-term Goals
 *Public Sphere Tech* (PST) comprises a suite of applications to facilitate scalable coordination. 
 Each application builds towards the long-term vision of a "global public sphere" wherein a global citizenry auto-generate and assents to a set of equitable and sustainable norms.
@@ -75,29 +77,42 @@ This, with the goal of connecting individuals into common interest groups.
   ##### &nbsp; &nbsp; Step 1.2.6: Create front-end-interface for visual analytics
 
 ### Milestone 2: AI assisted Proposal Generation and Review
-Whereas integration of CHSI into the PST's distributed I/O system affords one use case  into how data analytics of unstructured text; the long term goal of PST is to enable gubanatorial policies to emerge from large-scale conversations.
-Towards this 
-By targeting this community, Milestone 2 aims to drive adoption of the previously constructed I/O systems foundations, built atop OriginTrail and SingularityNet. 
+The focus of milestone 2 is to build a sustainable business, while also furthering our group's capacities to facilitate multi-agent negotiations.
+One clear community to orient towards is exactly the market of small groups engaged in very detailed negotiations: i.e. the market of grant (or proposal) authorship and review.
+This community faces several key hurdles which are well-served by more adept information I/O:
+- Hurdle 1: Once a good idea is concieved, proposals are time consuming to format to meet review criteria.
+- Hurdle 2: Once a propsal is submitted, the review process is also time-consuming.
+- Hurdle 3: Once reviews are submitted, it is not always the case that proposal authors will immediately understand the importance of reviewer critiques.  
+Authors and reviewers, alike, are increasingly turning towards large-language models to help in the proposal process.
+However, the tendency for LLM's to hallucinate makes their routine use in mission-critical communications hazerdous.
+Milestone 2, therefore, aims to formalize the use of LLM's in proposal authorship and review by treating the proposal as a deterministic data object that constrains the LLM's generative output.
+The most natural way of accomplishing this goal is to translate proposals into a data object that both humans and LLM's can understand, i.e., into graph database.
+The technical term for leveraging external graph databases to constrain LLM generative ouputs is
 
-Grant proposals can be laborious to write and to review. Current best practices make explicit the proposal draft format, and the proposal review criteria, to assist authors and reviewers in communicating linchpin features of the proposal's significance and design. None-the-less, key ideas may be lost in the communication process, making the time to draft and review proposals lost to all involved parties. 
+NSAI leverages external Knowledge Bases (KB) and Knowledge Graphs (KG) to fine-tune generative responses. With NSAI, proposers would be asked to (use an LLM to) restructure their proposal into a knowledge graph, as in: "Work plan A meets review criteria X. Deliverables A1, A2, and A3 are parts of work plan A. Deliverable A1, has challenges Z. Challenge Z is addressed by methods Z1, Z2, Z3." etc. 
+Immediately, reviewers, and AI, would have a more structured way of consuming proposals. 
+Additionally, challenges observed by reviewers (w/wo AI assistance) may be added to the graph, as in: "Method Z1 faces challenge R1." 
+Given an iterative review process, the KB could be reviewed until all issues are fully addressed.
 
-Fortunately, it is now possible to leverage artificial intelligence (AI) to help proposers and reviewers to find the best new ideas. While some efforts have been made in this area, there are evident problems to the state-of-the-art (see: https://www.science.org/content/article/science-funding-agencies-say-no-using-ai-peer-review). 
+NSAI represents the state-in-the-art in AI fine-tuning. 
+And, whereas much of the debate around the use of generative AI stems from its propensity to make irrelevant and responses, it seems clear that layering a structured knowledge database between generative AI and semi-structured prose is a great way of leveraging AI in governance and decision making.
+Moreover, proposal ROI is poorly balanced between reviewer needs to have as detailed and comprehensive a proposal as practical, and realistic proposer needs to seek funding by drafting proposal for multiple agencies. 
+Formalizing the use of AI in facilitating complex document collaboration stands to reduce the cost of composing proposals, reduce the time to review proposals, and increase the re-usability of proposals, all while ensuring that advocates arrive at the best proposals possible. 
 
-Part of the problem is that, despite the promise of AI to revolutionize communication, AI is not well integrated with proposal best practices. A more comprehensive integration of AI in the formal process of communicating new ideas (e.g., in the context of grant proposals) would make the process more efficient while also improving outcomes.
-        2. How does your project solve the problem or capture the white space?
-       One good way of using AI in proposal authorship and review is by translating proposals into a format that both AI and people can easily ingest. From there, output from the AI can be contextualized and fine tuned to produce more relevant insights. Moreover, the translation may be iteratively detailed as a means of addressing proposal gaps and shortcomings. 
-       So-called Neuro-Symbolic AI (NSAI) offers a great approach to AI-powered documentation and review. NSAI leverages external Knowledge Bases (KB) to fine-tune generative responses. With NSAI, proposers would be asked to (use an LLM to) restructure their proposal into a knowledge graph, as in: "Work plan A meets review criteria X. Deliverables A1, A2, and A3 are parts of work plan A. Deliverable A1, has challenges Z. Challenge Z is addressed by methods Z1, Z2, Z3." etc. Immediately, reviewers, and AI, would have a more structured way of consuming proposals. Additionally, challenges observed by reviewers (w/wo AI assistance) may be added to the graph, as in: "Method Z1 faces challenge R1." Given an iterative review process, the KB could be reviewed until all issues are fully addressed.
-        3. How did you come up with this idea?
-       NSAI represents the state-in-the-art in AI fine-tuning. And, whereas much of the debate around the use of generative AI stems from its propensity to make irrelevant and responses, it seems clear that layering a structured knowledge database between generative AI and semi-structured prose is a great way of leveraging AI in governance and decision making.
+Certainly, AI has been put to this effort before, albeit with limited results. 
+One common use case of AI in governance is to provide a summary of proposal text. 
+While this technique does provide a convenient way of introducing proposals to reviewers, often, the most critical aspects of a proposal lies in its filtered details.
+The alternative proposed, herein, leverages the state-of-the-art in AI. 
+As such, most of the existing use cases are still embedded in the academic literaturei. 
+At least one enterprise is offering NSAI consultations for commercial clients ii. 
+While a leading KB software provider, Neo4j, is publishing their early progress in NSAI to their open-source git repositoriesiii.
+Still absent are user-friendly platforms that guide authors and reviewers through the grant submission and review process. 
+The current proposal apples open-source advances in state-of-the-art AI to solve standing problems for distributed self-governance. 
+While none of the technologies proposed here-in are novel in their own right, their novel combination stands to make the proposal authorship and review process much more efficient and engaging.
 
-Proposal authorship and review, both, are resource-intensive endeavors. Moreover, proposal ROI is poorly balanced between reviewer needs to have as detailed and comprehensive a proposal as practical, and realistic proposer needs to seek funding by drafting proposal for multiple agencies. Formalizing the use of AI in facilitating complex document collaboration stands to reduce the cost of composing proposals, reduce the time to review proposals, and increase the re-usability of proposals, all while ensuring that advocates arrive at the best proposals possible. 
-	Certainly, AI has been put to this effort before, albeit with limited results. One common use case of AI in governance is to provide a summary of proposal text. While this technique does provide a convenient way of introducing proposals to reviewers, often, the most critical aspects of a proposal lies in its filtered details.
-	The alternative proposed, herein, leverages the state-of-the-art in AI. As such, most of the existing use cases are still embedded in the academic literaturei. At least one enterprise is offering NSAI consultations for commercial clients ii. While a leading KB software provider, Neo4j, is publishing their early progress in NSAI to their open-source git repositoriesiii.
-	Still absent are user-friendly platforms that guide authors and reviewers through the grant submission and review process. 
-    3. Does your project use any novel technology? 
-       The current proposal apples open-source advances in state-of-the-art AI to solve standing problems for distributed self-governance. While none of the technologies proposed here-in are novel in their own right, their novel combination stands to make the proposal authorship and review process much more efficient and engaging.
+### Mileston
 
-### Milestone 3: Visualizing global communities
+
 
 
 
