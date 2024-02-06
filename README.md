@@ -41,14 +41,12 @@ This impasse raise a second critical tool: computational techniques from machine
 When combined, distributed I/O systems and modern computational techniques provide everything necessary for grass-roots communities to link humanity together into an ongoing global conversation.
 Armed with these tools, humanity is well-posed to amass amid a common (digital) congress, to shout as loud as each would please about whatever may be in their hearts, and to resolve that cocaphany into the details of a just and sustainable global political economy.
 
-
-
 ## Near-term Goals
 *Public Sphere Tech* (PST) comprises a suite of applications to facilitate scalable coordination. 
 Each application builds towards the long-term vision of a "global public sphere" wherein a global citizenry auto-generate and assents to a set of equitable and sustainable norms.
 The immediate application development goals are described in the following milestones.
 
-### Milestone 1: I/O Systems Foundations, OriginTrail + SingularityNET
+### Milestone 1: I/O Systems Foundations: OriginTrail + SingularityNET
 A natural place to begin is with the integration of data storage and data analysis tools into a common framework.
 And, whereas the ultimate goal of PST is to build trustless and scalable information I/O tools, it makes sense to utilize distributed information systems as a core design feature.
 The state-of-the-art in blockchain-native information I/O tools are 1) OriginTrail Distributed Knowledge Graphs, and 2) SingularityNET distributed AI analytics applications.
@@ -76,13 +74,14 @@ This, with the goal of connecting individuals into common interest groups.
   ##### &nbsp; &nbsp; Step 1.2.5: Visually analyze knowledge assets for commonalities
   ##### &nbsp; &nbsp; Step 1.2.6: Create front-end-interface for visual analytics
 
-### Milestone 2: AI assisted Proposal Generation and Review
+### Milestone 2: Sustainable Business: AI assisted Proposal Generation and Review
 The focus of milestone 2 is to build a sustainable business, while also furthering our group's capacities to facilitate multi-agent negotiations.
 One clear community to orient towards is exactly the market of small groups engaged in very detailed negotiations: i.e. the market of grant (or proposal) authorship and review.
 This community faces several key hurdles which are well-served by more adept information I/O:
 - Hurdle 1: Once a good idea is concieved, proposals are time consuming to format to meet review criteria.
 - Hurdle 2: Once a propsal is submitted, the review process is also time-consuming.
 - Hurdle 3: Once reviews are submitted, it is not always the case that proposal authors will immediately understand the importance of reviewer critiques.  
+
 Authors and reviewers, alike, are increasingly turning towards large-language models to help in the proposal process.
 However, the tendency for LLM's to hallucinate makes their routine use in mission-critical communications hazerdous.
 Milestone 2, therefore, aims to formalize the use of LLM's in proposal authorship and review by treating the proposal as a deterministic data object that constrains the LLM's generative output.
@@ -110,7 +109,13 @@ Still absent are user-friendly platforms that guide authors and reviewers throug
 The current proposal apples open-source advances in state-of-the-art AI to solve standing problems for distributed self-governance. 
 While none of the technologies proposed here-in are novel in their own right, their novel combination stands to make the proposal authorship and review process much more efficient and engaging.
 
-### Mileston
+### Milestone 3: Publicity and Engagement: Visually Analysis of Large-Scale Social Networks
+Milestone 3 aims to drive public-interest and engagement with PST.
+To do so, we will produce an application having both a low barrier of entry and also a high degree of social stimulation.
+Specifically, the application will ingest each user's pre-existing social-media data, and translate that data into a user-specific KG.
+From there, the application will allow users to visually analyze areas of overlap (and any gaps) between their KG and the KG's from other users populating our expanding database.
+
+
 
 
 
