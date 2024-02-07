@@ -1,25 +1,23 @@
 # Public Sphere Technologies
 
 ## Introduction:
-Why, when humanity can work together to meet and exceed our wildest dreams, do we continue to behave as petty tribes, violating each other, for the sake of resources made artifically scarce? 
+Why, when humanity can work together to meet and exceed our wildest dreams, do we continue to behave as petty tribes? 
 Our hypothesis is that even while humanity has developed abundant means to feed and to shelter herself, we have yet to develop the necessary infrastructure to enunciate a shared story for who we are, and for what we should be doing with one another.
-Absent such a shared outlook, and the means for developing it, we exist in a perpetual state of individualist anarchy.
-One wherein violence is still observed to bear short term profit.
-Fortunately, the current era of telecommunications, AI, and the internet affords humanity with all that we require to finally compose an equitable and sustainable global system of discourse.
+Absent such a shared outlook, and the means for developing it, we exist in a perpetual state of individualist anarchy -- violating each other, for the sake of artifically scarce. 
+Fortunately, the current era of telecommunications, AI, and the internet affords humanity with all that we require to finally have a global conversation about the problems we face, and what sustainable and equitable solutions we should adopt. 
 
 ## Hypothesis
-From this perspective, global peace and prosperity is, at root, a networking problem. 
-One having evident engineering solutions.
+From this perspective, universal peace and prosperity is, at root, a networking problem -- one having evident engineering solutions.
 Figure 1 displays this concept in the abstract. As we move from left to right across the figure, humanity leverages novel communications devices (dashed and dotted lines) to incrementally build a more fully inter-connected and collaborative species. 
 The leftmost panel depicts the state of nature, wherein physical co-location allows vocal communication to establish tribes. 
 The center panel describes any of several high-utility/high-cost communications systems that facilitate long-range connections between tribes.
 Examples of these communications systems include, e.g.: printing presses, telegraph and rail lines, congressional seats, social media servers, etc.
-Owing to the high costs of building these systems, the few individuals who govern them will act as hubs, mediating interactions between their local and other remote tribes.
+Owing to the high costs of building these systems, the few individuals who govern them will act as hubs, mediating interactions for non-hubs.
 These types of networks are termed "small-world."
 The term denotes the proliferation of local clustering (the tribes), alongside the existence of key long-range connections between clusters (the hubs).
-Critically, if the hubs, themselves, are clustered together; the small-world network may also posess a "rich-club."
+Critically, if the hubs, themselves, are clustered together; the small-world network posesses a "rich-club."
 The rightmost panel leverages high-utility/low-cost communications systems -- e.g. digital networks -- which allow all people to coordinate, at-will, with any and all other persons.
-This type of network may be considered "fully connected," albeit, with individual interest and attention filtering information flow between each person and the mutually-accessible digital I/O communications backbone.
+This type of network may be considered "fully connected," albeit, with two provisions: 1) individuals communicate with one another via a mutually-accessible digital I/O communications backbone, and 2) individual interest/attention filters information flow between persons.
 
 | ![Social hieararchies are directly established by certain social network architectures.](/images/NetworkTopologies.png "Social hieararchies are directly established by certain social network architectures.") |
 |:--:| 
