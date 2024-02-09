@@ -52,7 +52,7 @@ Thus, Milestone 1 installs, configures, and tests OriginTrail + SingularityNET t
 To verify the I/O framework, Milestone 1 launches a ready-made information analytics tool from a partner organization, namely, the Collective Human SuperIntelligence (CHSI) app from radish.org. 
 #### Part 1.1: General system configuration
 The foundation of Public Sphere Tech is robust, on-chain, I/O infrastructure. 
-To this end, following steps install and configure state-of-the-art blockchain-native I/O tools onto a bare-metal node.
+To this end, the following steps install and configure state-of-the-art blockchain-native I/O tools onto a bare-metal node.
 This node will be used to test and to launch user-facing public sphere applications.
   ##### &nbsp; &nbsp; Step 1.1.1: Configure OriginTrail Node
   ##### &nbsp; &nbsp; Step 1.1.2: Configure SingularityNet Node
