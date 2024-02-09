@@ -21,7 +21,7 @@ This type of network may be considered "fully connected," albeit, with two provi
 
 | ![Social hieararchies are directly established by certain social network architectures.](/images/NetworkTopologies.png "Social hieararchies are directly established by certain social network architectures.") |
 |:--:| 
-| *Figure 1* displays three kinds of social network topology. Part A features four disconnected tribes (blue, red, green, and magenta). Each tribe's internal connections are produced through person-to-person contact and communication (solid lines). Part B includes several long-range connections (dashed lines) between certain members (black diamonds) of each tribe. Each well-connected tribal member is a hub, filtering communication between their own tribal members and the hubs of other tribes. Critically, the high degree of connectivity among tribal hubs creates a "rich-club" montage that may devolve into collusion among the individuals who act as hubs. Rich-club network topologies are the current configuration of most long-range social networks -- e.g., representative democracies, the UN, OPEC, etc. Part C depicts a network model wherein all participants may communicate with any other member in just two steps (dotted lines) via a common database (circumferential ring).|
+| *Figure 1* displays three kinds of social network topologies. Part A features four disconnected tribes (blue, red, green, and magenta). Each tribe's internal connections are produced through person-to-person contact and communication (solid lines). Part B includes several long-range connections (dashed lines) between certain members (black diamonds) of each tribe. Each well-connected tribal member is a hub, filtering communication between their own tribal members and the hubs of other tribes. Critically, the high degree of connectivity among tribal hubs creates a "rich-club" montage that may devolve into collusion among the individuals who act as hubs. Rich-club network topologies are the current configuration of most long-range social networks -- e.g., representative democracies, the UN, OPEC, etc. Part C depicts a network model wherein all participants may communicate with any other member in just two steps (dotted lines) via a common database (circumferential ring).|
 
 ## Long-term Goal: Detailing the Global Public Sphere
 Transitioning from a small-world to a fully-connecteded global civil society could be accomplished very quickly, provided that pre-existing hubs decide to involve themselves in accelerating this transition.
@@ -44,12 +44,12 @@ Armed with these tools, humanity is well-posed to amass amid a common (digital) 
 Each application builds towards the long-term vision of a "global public sphere" wherein a global citizenry auto-generate and assents to a set of equitable and sustainable norms.
 The immediate application development goals are described in the following milestones.
 
-### Milestone 1: I/O Systems Foundations: OriginTrail + SingularityNET
+### Milestone 1: I/O Systems Foundations: OriginTrail + SingularityNET (month 1)
 A natural place to begin is with the integration of data storage and data analysis tools into a common framework.
 And, whereas the ultimate goal of PST is to build trustless and scalable information I/O tools, it makes sense to utilize distributed information systems as a core design feature.
-The state-of-the-art in blockchain-native information I/O tools are 1) OriginTrail Distributed Knowledge Graphs, and 2) SingularityNET distributed AI analytics applications.
-To this end, milestone one installs and configures OriginTrail + SingularityNET to host a suite of user-facing information I/O tools.
-As a proof-of-concept: milestone 1 recruits a pre-existing information analytics tool from a partner organizations: Collective Human SuperIntelligence (CHSI) by radish.org. 
+The state-of-the-art in blockchain-native information I/O tools include 1) OriginTrail Distributed Knowledge Graphs, and 2) SingularityNET decentralized AI analytics applications.
+Thus, Milestone 1 installs, configures, and tests OriginTrail + SingularityNET to host a suite of user-facing information I/O tools.
+To verify the I/O framework, Milestone 1 launches a ready-made information analytics tool from a partner organization, namely, the Collective Human SuperIntelligence (CHSI) app from radish.org. 
 #### Part 1.1: General system configuration
 The foundation of Public Sphere Tech is robust, on-chain, I/O infrastructure. 
 To this end, following steps install and configure state-of-the-art blockchain-native I/O tools onto a bare-metal node.
@@ -58,7 +58,8 @@ This node will be used to test and to launch user-facing public sphere applicati
   ##### &nbsp; &nbsp; Step 1.1.2: Configure SingularityNet Node
   ##### &nbsp; &nbsp; Step 1.1.3: Test local communication between OriginTrail data and SingularityNet analysis
   ##### &nbsp; &nbsp; Step 1.1.4: Test on-chain communication between OriginTrail data and SingularityNet analysis
-
+  ##### &nbsp; &nbsp; Step 1.1.5: Refactor configuration and testing steps into reusable repository
+  
 #### Part 1.2: Integration with CHSI (Collective Human SuperIntelligence)
 CHSI is an independent project built by Victor Piper and Jaemen Shen. 
 The aim of the application is to connect individuals holding shared interests; so as to catalyze the proliferation of those interests.
@@ -74,7 +75,7 @@ This, with the goal of connecting individuals into common interest groups.
 
 #### Impact:
 
-### Milestone 2: Sustainable Business: AI assisted Proposal Generation and Review
+### Milestone 2: Sustainable Business: AI assisted Proposal Generation and Review (months 2-5)
 The focus of milestone 2 is to build a sustainable business, while also furthering our group's capacities to facilitate multi-agent negotiations.
 One clear community to orient towards is exactly the market of small groups engaged in very detailed negotiations: i.e. the market of grant (or proposal) authorship and review.
 This community faces several key hurdles which are well-served by more adept information I/O:
@@ -102,25 +103,37 @@ Certainly, AI has been put to this effort before, albeit with limited results.
 One common use case of AI in governance is to provide a summary of proposal text. 
 While this technique does provide a convenient way of introducing proposals to reviewers, often, the most critical aspects of a proposal lies in its filtered details.
 The alternative proposed, herein, leverages the state-of-the-art in AI. 
-As such, most of the existing use cases are still embedded in the academic literaturei. 
+As such, most of the existing use cases are still embedded in the academic literature. 
 At least one enterprise is offering NSAI consultations for commercial clients ii. 
 While a leading KB software provider, Neo4j, is publishing their early progress in NSAI to their open-source git repositoriesiii.
 Still absent are user-friendly platforms that guide authors and reviewers through the grant submission and review process. 
 The current proposal apples open-source advances in state-of-the-art AI to solve standing problems for distributed self-governance. 
 While none of the technologies proposed here-in are novel in their own right, their novel combination stands to make the proposal authorship and review process much more efficient and engaging.
 
-#### Part 2.1.: Translate proposal text into KG
-##### &nbsp; &nbsp; Step 2.1.1: 
+#### Part 2.1: Translate proposal text into KG
+##### &nbsp; &nbsp; Step 2.1.1: Test off-the-shelf techniques for text-to-KG translation from Neo4j (Project NaLLM), assessing feature and limitations
+##### &nbsp; &nbsp; Step 2.1.2: Evaluate performance using a Text2KGBenchmark (https://github.com/cenguix/Text2KGBench)
+##### &nbsp; &nbsp; Step 2.1.3: Dig into NaLLM source code to improve, as needed.
+##### &nbsp; &nbsp; Step 2.1.4: Develop front-end to support manual editing of KG, if needed.
 
-#### Part 2.2.: NSAI-enabled proposal review
-##### &nbsp; &nbsp; Step 2.2.1: 
+#### Part 2.2: Translate KG into long-form proposal
+##### &nbsp; &nbsp; Step 2.2.1: Explore vanilla KG-to-text procedure using prompt engineering (as suggested by https://arxiv.org/abs/2307.07312)
+##### &nbsp; &nbsp; Step 2.2.2: Explore off-the-shelf KG-to-report methods from Neo4j (Project NaLLM) 
+##### &nbsp; &nbsp; Step 2.2.3: Evaluate the performance of KG-to-text procedures using the the Data-to-Text-Evaluation-Metric (https://github.com/wenhuchen/Data-to-text-Evaluation-Metric/) 
+##### &nbsp; &nbsp; Step 2.2.4: Develop front-end to support manual editing of generated text, where needed.
 
-#### Part 2.3.: Translate KG into long-form proposal
+#### Part 2.3: NSAI-enabled proposal review
 ##### &nbsp; &nbsp; Step 2.3.1: 
+
+#### Part 2.4: Integrate generated KG's with OriginTrail+SingularityNET backend
+##### &nbsp; &nbsp; Step 2.4.1: Provide user-oriented methods to publish KGs from part 2.1 as knowledge assets.
+##### &nbsp; &nbsp; Step 2.4.2: Provide user-oriented methods to publish reviews from part 2.3 as linked knowledge assets.
+##### &nbsp; &nbsp; Step 2.4.3: Provide user-oriented methods to convert linked knowledge assets into formatted long-form proposals, as in part 2.2.
+##### &nbsp; &nbsp; Step 2.4.3: Publish user-oriented mathods to SingularityNET marketplace.
 
 #### Impact:
 
-### Milestone 3: Publicity and Engagement: Visually Analysis of Large-Scale Social Networks
+### Milestone 3: Publicity and Engagement: Visually Analysis of Large-Scale Social Networks (months 6-7)
 Milestone 3 aims to drive public-interest and engagement with PST.
 To do so, we will produce an application having both a low barrier of entry and also a high degree of social stimulation.
 Specifically, the application will ingest each user's pre-existing social-media data, and translate that data into a user-specific KG.
