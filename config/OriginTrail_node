@@ -4,21 +4,24 @@
 set -e
 
 # Step 1: Update and upgrade system packages
-echo "Updating and upgrading system packages..."
-sudo apt update && sudo apt upgrade -y
+echo "Updating system packages..."
+sudo dnf update -y
 
-# Step 2: Install Node.js, npm, and build-essential package
-echo "Installing Node.js, npm, and build essentials..."
-curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
-sudo apt-get install -y nodejs build-essential
+# Step 2: Install Node.js, npm, and development tools
+echo "Installing Node.js, npm, and development tools..."
+sudo dnf module install nodejs:14 -y
+sudo dnf groupinstall 'Development Tools' -y
 
 # Step 3: Install Docker
 echo "Installing Docker and adding user to the Docker group..."
-sudo apt install -y apt-transport-https ca-certificates curl software-properties-common
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
-sudo apt update
-sudo apt install -y docker-ce
+sudo dnf config-manager --add-repo=https://download.docker.com/linux/fedora/docker-ce.repo
+sudo dnf install docker-ce docker-ce-cli containerd.io -y
+
+# Start Docker service
+sudo systemctl start docker
+
+# Enable Docker service to start on boot
+sudo systemctl enable docker
 
 # Add the executing user to the docker group
 sudo usermod -aG docker ${USER}
@@ -36,21 +39,21 @@ git clone https://github.com/OriginTrail/ot-node.git
 cd ot-node
 
 # Check out the specific Node version
-# Note: Replace <version-tag> with the specific version you want to install
+# Note: Replace <version-tag> with the specific version you wish to install
 git checkout <version-tag>
 
 # Copy the example configuration file
 echo "Setting up the environment configuration..."
 cp .env.example .env
 
-# Edit the .env configuration file
-# You should manually set the NODE_WALLET, RPC_SERVER, and other necessary variables in the .env file
+# Prompt user to edit the .env file
+# The default editor in Fedora is usually 'vi', but users can change it to their editor of choice
 echo "Please configure your .env file with appropriate variables."
-echo "Press any key to continue to the editor or exit (Ctrl+C) to configure it later..."
+echo "Press Enter to continue to the editor or exit (Ctrl+C) to configure it later..."
 read
 
-# Open the .env file with the nano editor, you can use any editor of your liking
-nano .env
+# Open the .env file with vi (or another editor, if you prefer)
+vi .env
 
 # Step 5: Start the OriginTrail Node
 echo "Starting the OriginTrail node..."
