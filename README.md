@@ -3,12 +3,13 @@
 ## Introduction:
 Why, when humanity can work together to meet and exceed our wildest dreams, do we continue to behave as petty tribes? 
 Our hypothesis is that even while humanity has developed abundant means to feed and to shelter herself, we have yet to develop the necessary infrastructure to enunciate a shared story for who we are, and for what we should be doing with one another.
-Absent such a shared outlook, and the means for developing it, we exist in a perpetual state of individualist anarchy -- violating each other, for the sake of artifically scarce. 
-Fortunately, the current era of telecommunications, AI, and the internet affords humanity with all that we require to finally have a global conversation about the problems we face, and what sustainable and equitable solutions we should adopt. 
+Absent such a shared outlook, and the means for developing it, we exist in a perpetual state of individualist anarchy -- violating each other, for the sake of artifically scarce resources. 
+Fortunately, the current era of telecommunications, AI, and the internet affords humanity with all that we require to finally talk through our differences, and reify our shared outlooks. 
 
 ## Hypothesis
-From this perspective, universal peace and prosperity is, at root, a networking problem -- one having evident engineering solutions.
-Figure 1 displays this concept in the abstract. As we move from left to right across the figure, humanity leverages novel communications devices (dashed and dotted lines) to incrementally build a more fully inter-connected and collaborative species. 
+From this perspective, universal peace and prosperity is, at base, a networking problem -- one having evident engineering solutions.
+Figure 1 displays this concept in the abstract. 
+As we move from left to right across the figure, interpersonal networks leverage improved communications devices (dashed and dotted lines) to incrementally build a more fully inter-connected and collaborative species. 
 The leftmost panel depicts the state of nature, wherein physical co-location allows vocal communication to establish tribes. 
 The center panel describes any of several high-utility/high-cost communications systems that facilitate long-range connections between tribes.
 Examples of these communications systems include, e.g.: printing presses, telegraph and rail lines, congressional seats, social media servers, etc.
