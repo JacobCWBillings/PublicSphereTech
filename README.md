@@ -48,23 +48,23 @@ The near-term goals described below serve to build incremental solutions to the 
 
 ## Near-term Goals
 *Public Sphere Tech* (PST) comprises a suite of applications to facilitate scalable coordination. 
-Each application, described below, builds towards the long-term vision of a "global public sphere" wherein a global citizenry auto-generates, and individually assents, to a set of equitable and sustainable norms.
+Each application, described in the milestones below, builds towards the long-term vision of a "global public sphere" wherein a global citizenry auto-generates, and, as self-interested individuals, assents to a set of equitable and sustainable norms.
 
 ### Milestone 1: I/O Systems Foundations: OriginTrail + SingularityNET (month 1)
-A natural place to begin is with the integration of data storage and data analysis tools into a common framework.
-And, whereas the ultimate goal of PST is to build trustless and scalable information I/O tools, it makes sense to utilize distributed information systems as a core design feature.
-The state-of-the-art in distributed information I/O tools include 1) OriginTrail Distributed Knowledge Graphs (DKG), and 2) SingularityNET Decentralized Applications (DApps) for AI/ML data analytics.
+A natural place to begin is with the integration of high-accessibility data storage systems and low-cost data analysis tools into a common framework.
+Whereas the ultimate goal of PST is to build trustless and scalable information I/O tools, it makes sense to utilize distributed information systems as a core design feature.
+The state-of-the-art in distributed information I/O tools includes 1) OriginTrail Distributed Knowledge Graphs (DKG), and 2) SingularityNET Decentralized Applications (DApps) for AI/ML data analytics.
 Thus, Milestone 1 installs, configures, and tests OriginTrail + SingularityNET to host a down-stream suite of user-facing information I/O tools.
 To verify the I/O framework, Milestone 1 launches a ready-made information analytics tool from a partner organization, namely, the Collective Human SuperIntelligence (CHSI) app from radish.org. 
 #### Part 1.1: General system configuration
 The foundation of Public Sphere Tech is robust, on-chain, I/O infrastructure. 
-To this end, the following steps install and configure state-of-the-art blockchain-native I/O tools onto a bare-metal node.
+To this end, the following steps install and configure state-of-the-art distributed I/O tools onto a bare-metal node.
 This node will be used to test and to launch user-facing public sphere applications.
   ##### &nbsp; &nbsp; Step 1.1.1: Configure OriginTrail Node
   ##### &nbsp; &nbsp; Step 1.1.2: Configure SingularityNet Node
   ##### &nbsp; &nbsp; Step 1.1.3: Test local communication between OriginTrail data and SingularityNet analysis
   ##### &nbsp; &nbsp; Step 1.1.4: Test on-chain communication between OriginTrail data and SingularityNet analysis
-  ##### &nbsp; &nbsp; Step 1.1.5: Refactor configuration and testing steps into reusable repository
+  ##### &nbsp; &nbsp; Step 1.1.5: Refactor configuration and testing steps into a reusable repository
   
 #### Part 1.2: Integration with CHSI (Collective Human SuperIntelligence)
 CHSI is an independent project built by Victor Piper and Jaemen Shen. 
@@ -80,6 +80,8 @@ This, with the goal of connecting individuals into common interest groups.
   ##### &nbsp; &nbsp; Step 1.2.6: Create front-end-interface for visual analytics
 
 #### Impact:
+Milestone 1 creates a robust and reusable framework for the production, interprentation, and analysis of scalable social graphs.
+Beyond making this framework available for later milestones and for the broader development community, milestone 1 provides hosting services for CHSI, a simple collective intelligence DApp.
 
 ### Milestone 2: Sustainable Business: AI assisted Proposal Generation and Review (months 2-5)
 The focus of milestone 2 is to build a sustainable business, while also furthering our group's capacities to facilitate multi-agent negotiations.
@@ -93,28 +95,12 @@ Authors and reviewers, alike, are increasingly turning towards large-language mo
 However, the tendency for LLM's to hallucinate makes their routine use in mission-critical communications hazerdous.
 Milestone 2, therefore, aims to formalize the use of LLM's in proposal authorship and review by treating the proposal as a deterministic data object that constrains the LLM's generative output.
 The most natural way of accomplishing this goal is to translate proposals into a data object that both humans and LLM's can understand, i.e., into graph database.
-The technical term for leveraging external graph databases to constrain LLM generative ouputs is
+The technical term for leveraging external graph databases to constrain LLM generative ouputs is "Neuro-Symbolic Artificial Intelligence" (NSAI).
 
-NSAI leverages external Knowledge Bases (KB) and Knowledge Graphs (KG) to fine-tune generative responses. With NSAI, proposers would be asked to (use an LLM to) restructure their proposal into a knowledge graph, as in: "Work plan A meets review criteria X. Deliverables A1, A2, and A3 are parts of work plan A. Deliverable A1, has challenges Z. Challenge Z is addressed by methods Z1, Z2, Z3." etc. 
+NSAI leverages external Knowledge Bases (KB) and Knowledge Graphs (KG) to fine-tune generative responses. With NSAI, proposers would be asked to (use an LLM to) restructure their proposal into a knowledge graph, as in: "Work plan e1 meets review criteria R1. Deliverables e1.1, e1.2, and e1.3 are parts of work plan e1. Deliverable e1, has challenges C1. Challenge C1 is addressed by methods x1.1, x1.2, x1.3." etc. 
 Immediately, reviewers, and AI, would have a more structured way of consuming proposals. 
-Additionally, challenges observed by reviewers (w/wo AI assistance) may be added to the graph, as in: "Method Z1 faces challenge R1." 
-Given an iterative review process, the KB could be reviewed until all issues are fully addressed.
-
-NSAI represents the state-in-the-art in AI fine-tuning. 
-And, whereas much of the debate around the use of generative AI stems from its propensity to make irrelevant and responses, it seems clear that layering a structured knowledge database between generative AI and semi-structured prose is a great way of leveraging AI in governance and decision making.
-Moreover, proposal ROI is poorly balanced between reviewer needs to have as detailed and comprehensive a proposal as practical, and realistic proposer needs to seek funding by drafting proposal for multiple agencies. 
-Formalizing the use of AI in facilitating complex document collaboration stands to reduce the cost of composing proposals, reduce the time to review proposals, and increase the re-usability of proposals, all while ensuring that advocates arrive at the best proposals possible. 
-
-Certainly, AI has been put to this effort before, albeit with limited results. 
-One common use case of AI in governance is to provide a summary of proposal text. 
-While this technique does provide a convenient way of introducing proposals to reviewers, often, the most critical aspects of a proposal lies in its filtered details.
-The alternative proposed, herein, leverages the state-of-the-art in AI. 
-As such, most of the existing use cases are still embedded in the academic literature. 
-At least one enterprise is offering NSAI consultations for commercial clients ii. 
-While a leading KB software provider, Neo4j, is publishing their early progress in NSAI to their open-source git repositoriesiii.
-Still absent are user-friendly platforms that guide authors and reviewers through the grant submission and review process. 
-The current proposal apples open-source advances in state-of-the-art AI to solve standing problems for distributed self-governance. 
-While none of the technologies proposed here-in are novel in their own right, their novel combination stands to make the proposal authorship and review process much more efficient and engaging.
+Additionally, challenges observed by reviewers (w/wo AI assistance) may be added to the graph, as in: "Method x1.1 faces the unmet challenge C2." 
+Given an iterative review process, the KB could be reviewed until all challenges and review criteria are satisfactorily resolved.
 
 #### Part 2.1: Translate proposal text into KG
 ##### &nbsp; &nbsp; Step 2.1.1: Test off-the-shelf techniques for text-to-KG translation from Neo4j (Project NaLLM), assessing feature and limitations
