@@ -76,8 +76,8 @@ This, with the goal of connecting individuals into common interest groups.
   ##### &nbsp; &nbsp; Step 1.2.2: Convert spoken conversation into text transcription
   ##### &nbsp; &nbsp; Step 1.2.3: Convert text transcript into knowledge graph
   ##### &nbsp; &nbsp; Step 1.2.4: Add conversation knowledge graph to DKG 
-  ##### &nbsp; &nbsp; Step 1.2.5: Visually analyze knowledge assets for commonalities
-  ##### &nbsp; &nbsp; Step 1.2.6: Create front-end-interface for visual analytics
+  ##### &nbsp; &nbsp; Step 1.2.5: Analyze knowledge assets for commonalities via key-word search
+  ##### &nbsp; &nbsp; Step 1.2.6: Create front-end-interface where users may observe with whom their conversations share common themes.
 
 #### Impact:
 Milestone 1 creates a robust and reusable framework for the production, interprentation, and analysis of scalable social graphs.
@@ -131,8 +131,9 @@ From a technical standpoint, milestone 2 developes our capacity to flexibly deta
 Moreover, we develop further capacities to work with KG, translating KG into reformatted text.
 These technical capacities are important to develop as, in the long term, the global political economy is, itself, a highly detailed, interconnected, and mutable network.
 
-### Milestone 3: Publicity and Engagement: Visually Analysis of Large-Scale Social Networks (months 6-7)
+### Milestone 3: Publicity and Engagement: Visual Analysis of Large-Scale Social Networks (months 6-7)
 Milestone 3 aims to drive public-interest and engagement with PST.
+This, while also developing our capacities to work with very large knowledge graphs.
 To do so, we will produce an application having both a low barrier of entry and also a high degree of social stimulation.
 Specifically, the application will ingest each user's pre-existing social-media data, and translate that data into a user-specific KG.
 From there, the application will allow users to visually analyze areas of overlap (and any gaps) between their KG and the KG's from other users populating our expanding database.
@@ -144,8 +145,8 @@ From there, the application will allow users to visually analyze areas of overla
 ##### &nbsp; &nbsp; Step 3.2.1: 
 
 #### Part 3.3.: Present methods for searching through KG manifolds
-
 ##### &nbsp; &nbsp; Step 3.3.1: 
 
 #### Impact:
-Milestone 3 enables people to 
+The long-term impact of mileston 3 promises to help people to realize themselves as members of a global civil society.
+From there, our continued development of PST should afford the global community with all the tools necessary to detail subjectively important aspects of the global political economy, as well as means to analaze and innovate upon the status quo.
