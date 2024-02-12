@@ -20,25 +20,28 @@ Critically, if the hubs, themselves, are clustered together; the small-world net
 The rightmost panel leverages high-utility/low-cost communications systems -- e.g. digital networks -- which allow all people to coordinate, at-will, with any and all other persons.
 This type of network may be considered "fully connected," albeit, with two provisions: 1) individuals communicate with one another via a mutually-accessible digital I/O communications backbone, and 2) individual interest/attention filters information flow between persons.
 
-| ![Social hieararchies are directly established by certain social network architectures.](/images/NetworkTopologies.png "Social hieararchies are directly established by certain social network architectures.") |
+| ![Social hieararchies are directly established by certain social network architectures.](/images/Dots_ABCsystems.png "Social hieararchies are directly established by certain social network architectures.") |
 |:--:| 
 | *Figure 1* displays three kinds of social network topologies. Part A features four disconnected tribes (blue, red, green, and magenta). Each tribe's internal connections are produced through person-to-person contact and communication (solid lines). Part B includes several long-range connections (dashed lines) between certain members (black diamonds) of each tribe. Each well-connected tribal member is a hub, filtering communication between their own tribal members and the hubs of other tribes. Critically, the high degree of connectivity among tribal hubs creates a "rich-club" montage that may devolve into collusion among the individuals who act as hubs. Rich-club network topologies are the current configuration of most long-range social networks -- e.g., representative democracies, the UN, OPEC, etc. Part C depicts a network model wherein all participants may communicate with any other member in just two steps (dotted lines) via a common database (circumferential ring).|
 
 ## Long-term Goal: Detailing the Global Public Sphere
-Transitioning from a small-world to a fully-connecteded global civil society could be accomplished very quickly, provided that pre-existing hubs decide to involve themselves in accelerating this transition.
-Already, ~65% of the global population has access to the internet.
-And reltatively small capital investments could push these numbers very close to 100% connectivity. 
-The ease of this transition begs the question, "why is humanity yet to achieve a fully-connected global civil society?"
-Very likely, the transition away from humanity's reliance on privelaged hubs is not a transition that privelaged hubs are eager to accelerate.
-How many rationally self-interested persons have the foresight to empower all people towards a more verdant and sustainable tomorrow?
+Transitioning from a small-world to a fully-connected global civil society can be done quickly, should we make it a priority.
+Indeed, an expanding ecosystem of grass-roots efforts are already under development to effectuate scalable "collective intelligence."
+The most critical of these efforts has constructed a distributed I/O network layer, i.e., distributed ledger technologies, on top of which are built distributed applications.
+These systems establish a high-utility/low-cost I/O network, via which any and all persons may interact with one another.
+Owing to their distributed nature, these networks are resistent to corruption at the scale of proportionally few people/groups.
+And, information accepted by very many people has a greater chance of being addressed by the broader population.
 
-Fortunately, a wide range of grass-roots efforts are well underway to effectuate large-scale collective intelligence.
-The most critical of these efforts are systems that establish distributed I/O, i.e., distributed ledger technologies and the distributed applications (dapps) that utilize them.
-These systems establish a high-utility/low-cost I/O layer, through which any and all persons may interact with one another.
-But whereas these systems provide a means for people to interact, "big-data" is notoriously difficult to handle, sensably.
-This impasse raise a second critical tool: computational techniques from machine learning and artificial intelligence (especially Large-Language Models (LLMs)).
-When combined, distributed I/O systems and modern computational techniques provide everything necessary for grass-roots communities to link humanity together into an ongoing global conversation.
-Armed with these tools, humanity is well-posed to amass amid a common (digital) congress, to shout as loud as each would please about whatever may be in their hearts, and to resolve that cocaphany into the details of a just and sustainable global political economy.
+One problem faced by any growing network is effective knowledge management.
+Figure 2 displays on approach for organizing and analyzing scalable networks.
+Here, persons and entities are represented as nodes in a graph, while the relationships between persons/entities are represented as edges.
+This knowledge management system has an equivelent representation as a simple ledger, called a knowledge database, wherein each entry comprises a subject-predicate-object statement.
+Recomposing the ledger into a graphical format, called the knowledge graph, allows for a host of tools, from machine learning and AI (especially Large-Language Models (LLMs)), to be recruited to analyzing the network.
+This is in addition to being able to recruit standard tools for filtering and performing queries on the database.
+
+| ![cGraph networks offer a means to express and analyze political economies.](/images/pAlpha_system.png "vSocial hieararchies are directly established by certain social network architectures.") |
+|:--:| 
+| *Figure 2* displays a graph network. The network is built from three types of variables: _p_ are persons, _e_ are non-person entities, and _x_ are relationships between persons and/or entities. Hypothetically, this kind of graph network structure is flexible enough to account for any and all aspects of political economies. Certainly, such a complete picture would be much more detailed than the example shown. One useful feature of representing political economies as a graph network is that this representation is exactly that utilized in knowledge databases/knowledge graphs, wherein entities are connected via predicate relationships. Graph networks may be analyzed in a variety of ways. The most straitforward is via graph-query languages such as SPARQL. An alternate method considers that knowledge graphs are geometric objects. Looked at in this way, knowledge graphs support a wide varity of analytical tools from ML and AI.|
 
 ## Near-term Goals
 *Public Sphere Tech* (PST) comprises a suite of applications to facilitate scalable coordination. 
