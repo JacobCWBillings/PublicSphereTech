@@ -48,14 +48,13 @@ The near-term goals described below serve to build incremental solutions to the 
 
 ## Near-term Goals
 *Public Sphere Tech* (PST) comprises a suite of applications to facilitate scalable coordination. 
-Each application builds towards the long-term vision of a "global public sphere" wherein a global citizenry auto-generate and assents to a set of equitable and sustainable norms.
-The immediate application development goals are described in the following milestones.
+Each application, described below, builds towards the long-term vision of a "global public sphere" wherein a global citizenry auto-generates, and individually assents, to a set of equitable and sustainable norms.
 
 ### Milestone 1: I/O Systems Foundations: OriginTrail + SingularityNET (month 1)
 A natural place to begin is with the integration of data storage and data analysis tools into a common framework.
 And, whereas the ultimate goal of PST is to build trustless and scalable information I/O tools, it makes sense to utilize distributed information systems as a core design feature.
-The state-of-the-art in blockchain-native information I/O tools include 1) OriginTrail Distributed Knowledge Graphs, and 2) SingularityNET decentralized AI analytics applications.
-Thus, Milestone 1 installs, configures, and tests OriginTrail + SingularityNET to host a suite of user-facing information I/O tools.
+The state-of-the-art in distributed information I/O tools include 1) OriginTrail Distributed Knowledge Graphs (DKG), and 2) SingularityNET Decentralized Applications (DApps) for AI/ML data analytics.
+Thus, Milestone 1 installs, configures, and tests OriginTrail + SingularityNET to host a down-stream suite of user-facing information I/O tools.
 To verify the I/O framework, Milestone 1 launches a ready-made information analytics tool from a partner organization, namely, the Collective Human SuperIntelligence (CHSI) app from radish.org. 
 #### Part 1.1: General system configuration
 The foundation of Public Sphere Tech is robust, on-chain, I/O infrastructure. 
