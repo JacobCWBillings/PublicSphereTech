@@ -80,11 +80,11 @@ These knowledge assets may be compared to each other in order to recommend group
 
 #### Impact:
 Milestone 1 creates a robust and reusable framework for the production, interpretation, and analysis of scalable social graphs.
-Beyond making this framework available for later milestones and for the broader development community, milestone 1 provides hosting services for CHSI, a simple collective intelligence DApp.
+Beyond making this framework available for later milestones and for the broader development community, Milestone 1 provides hosting services for CHSI, a simple collective intelligence DApp.
 
 ### Milestone 2: Sustainable Business: AI-assisted Proposal Generation and Review (Months 2-5)
 The focus of Milestone 2 is to build a sustainable business, while also furthering our group's capacities to facilitate multi-agent negotiations.
-Markets of small groups engaged in very detailed negotiations are an obvious community to orient towards: i.e. the market of grant (or proposal) authorship and review.
+Markets of small groups engaged in very detailed negotiations are an obvious community to orient towards: i.e., the market of grant (or proposal) authorship and review.
 This community faces several key hurdles which are well-served by more adept information I/O:
 - Hurdle 1: Once a good idea is conceived, proposals are time consuming to format to meet review criteria.
 - Hurdle 2: Once a proposal is submitted, the review process is also time consuming.
