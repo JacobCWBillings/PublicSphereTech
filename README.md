@@ -97,33 +97,39 @@ Milestone 2, therefore, aims to formalize the use of LLM's in proposal authorshi
 The most natural way of accomplishing this goal is to translate proposals into a data object that both humans and LLM's can understand, i.e., into graph database.
 The technical term for leveraging external graph databases to constrain LLM generative ouputs is "Neuro-Symbolic Artificial Intelligence" (NSAI).
 
-NSAI leverages external Knowledge Bases (KB) and Knowledge Graphs (KG) to fine-tune generative responses. With NSAI, proposers would be asked to (use an LLM to) restructure their proposal into a knowledge graph, as in: "Work plan e1 meets review criteria R1. Deliverables e1.1, e1.2, and e1.3 are parts of work plan e1. Deliverable e1, has challenges C1. Challenge C1 is addressed by methods x1.1, x1.2, x1.3." etc. 
+NSAI leverages external Knowledge Bases (KB) and Knowledge Graphs (KG) to fine-tune generative responses. 
+With NSAI, proposers would be asked to (use an LLM to) restructure their proposal into a knowledge graph, as in: 
+"Work plan e1 meets review criteria R1. Deliverables e1.1, e1.2, and e1.3 are parts of work plan e1. Deliverable e1.1, has challenges C1. Challenge C1 is addressed by methods m1.1, m1.2, m1.3." etc. 
 Immediately, reviewers, and AI, would have a more structured way of consuming proposals. 
-Additionally, challenges observed by reviewers (w/wo AI assistance) may be added to the graph, as in: "Method x1.1 faces the unmet challenge C2." 
+Additionally, challenges observed by reviewers (w/wo AI assistance) may be added to the graph, as in: "Method m1.1 faces the unmet challenge C2." 
 Given an iterative review process, the KB could be reviewed until all challenges and review criteria are satisfactorily resolved.
 
 #### Part 2.1: Translate proposal text into KG
-##### &nbsp; &nbsp; Step 2.1.1: Test off-the-shelf techniques for text-to-KG translation from Neo4j (Project NaLLM), assessing feature and limitations
-##### &nbsp; &nbsp; Step 2.1.2: Evaluate performance using a Text2KGBenchmark (https://github.com/cenguix/Text2KGBench)
+##### &nbsp; &nbsp; Step 2.1.1: Test Neo4j's off-the-shelf techniques for text-to-KG translation (Project NaLLM), assessing feature and limitations
+##### &nbsp; &nbsp; Step 2.1.2: Evaluate translation performance using a Text-to-KG benchmarking tool (https://github.com/cenguix/Text2KGBench)
 ##### &nbsp; &nbsp; Step 2.1.3: Dig into NaLLM source code to improve, as needed.
 ##### &nbsp; &nbsp; Step 2.1.4: Develop front-end to support manual editing of KG, if needed.
 
 #### Part 2.2: Translate KG into long-form proposal
 ##### &nbsp; &nbsp; Step 2.2.1: Explore vanilla KG-to-text procedure using prompt engineering (as suggested by https://arxiv.org/abs/2307.07312)
 ##### &nbsp; &nbsp; Step 2.2.2: Explore off-the-shelf KG-to-report methods from Neo4j (Project NaLLM) 
-##### &nbsp; &nbsp; Step 2.2.3: Evaluate the performance of KG-to-text procedures using the the Data-to-Text-Evaluation-Metric (https://github.com/wenhuchen/Data-to-text-Evaluation-Metric/) 
+##### &nbsp; &nbsp; Step 2.2.3: Evaluate the performance of KG-to-text translation using the the Data-to-Text-Evaluation-Metric (https://github.com/wenhuchen/Data-to-text-Evaluation-Metric/) 
 ##### &nbsp; &nbsp; Step 2.2.4: Develop front-end to support manual editing of generated text, where needed.
 
 #### Part 2.3: NSAI-enabled proposal review
-##### &nbsp; &nbsp; Step 2.3.1: 
+##### &nbsp; &nbsp; Step 2.3.1: Leverage pre-existing AI-enabled graph query tools (esp. NatLangKG, and Project NaLLM) to facilitate the use of natural language to interrogate the content of KGs.
 
 #### Part 2.4: Integrate generated KG's with OriginTrail+SingularityNET backend
 ##### &nbsp; &nbsp; Step 2.4.1: Provide user-oriented methods to publish KGs from part 2.1 as knowledge assets.
 ##### &nbsp; &nbsp; Step 2.4.2: Provide user-oriented methods to publish reviews from part 2.3 as linked knowledge assets.
 ##### &nbsp; &nbsp; Step 2.4.3: Provide user-oriented methods to convert linked knowledge assets into formatted long-form proposals, as in part 2.2.
-##### &nbsp; &nbsp; Step 2.4.3: Publish user-oriented mathods to SingularityNET marketplace.
+##### &nbsp; &nbsp; Step 2.4.3: Publish user-oriented methods as an api and as a webapp via the SingularityNET marketplace.
 
-#### Impact:
+#### Impact: 
+Milestone 2 developes NSAI into a sustainable business that facilitates the laborous process of proposal authorship and review. 
+From a technical standpoint, milestone 2 developes our capacity to flexibly detail KG from unstructured text and from natural language inputs.
+Moreover, we develop further capacities to work with KG, translating KG into reformatted text.
+These technical capacities are important to develop as, in the long term, the global political economy is, itself, a highly detailed, interconnected, and mutable network.
 
 ### Milestone 3: Publicity and Engagement: Visually Analysis of Large-Scale Social Networks (months 6-7)
 Milestone 3 aims to drive public-interest and engagement with PST.
@@ -138,6 +144,8 @@ From there, the application will allow users to visually analyze areas of overla
 ##### &nbsp; &nbsp; Step 3.2.1: 
 
 #### Part 3.3.: Present methods for searching through KG manifolds
+
 ##### &nbsp; &nbsp; Step 3.3.1: 
 
 #### Impact:
+Milestone 3 enables people to 
