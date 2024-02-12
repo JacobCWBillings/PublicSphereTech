@@ -129,24 +129,31 @@ Given an iterative review process, the KB could be reviewed until all challenges
 Milestone 2 developes NSAI into a sustainable business that facilitates the laborous process of proposal authorship and review. 
 From a technical standpoint, milestone 2 developes our capacity to flexibly detail KG from unstructured text and from natural language inputs.
 Moreover, we develop further capacities to work with KG, translating KG into reformatted text.
-These technical capacities are important to develop as, in the long term, the global political economy is, itself, a highly detailed, interconnected, and mutable network.
+These technical capacities are important to develop as, in the long term, the global political economy is, itself, a highly detailed, interconnected, and mutable network. 
 
 ### Milestone 3: Publicity and Engagement: Visual Analysis of Large-Scale Social Networks (months 6-7)
 Milestone 3 aims to drive public-interest and engagement with PST.
-This, while also developing our capacities to work with very large knowledge graphs.
+This, while also developing our capacities to ingest, analyze, and visualize very large knowledge graphs.
 To do so, we will produce an application having both a low barrier of entry and also a high degree of social stimulation.
 Specifically, the application will ingest each user's pre-existing social-media data, and translate that data into a user-specific KG.
 From there, the application will allow users to visually analyze areas of overlap (and any gaps) between their KG and the KG's from other users populating our expanding database.
 
-#### Part 3.1.: Translate social-media data into KG
-##### &nbsp; &nbsp; Step 3.1.1: 
+Note: Copyright and GDPR concerns are at the forefront of our minds w.r.t. this milestone.
+And whereas many major markets have stipulated that individuals own the copyrights to what they upload to social media, it is not necessarily the case that these trends apply everywhere.
+Moreover, the content of data downloaded from popular social media sites may contain personal information, subject to GDPR concerns.
+Thus, milestone 3 will initially be made available only to persons existing in markets having clear copyright/GDPR laws surrounding use of social media data.
 
-#### Part 3.2.: Embed multiple KGs into 2-dimensions
-##### &nbsp; &nbsp; Step 3.2.1: 
+#### Part 3.1.: Translate text-based social-media data into KG
+##### &nbsp; &nbsp; Step 3.1.1: Download sample dumps from popular social media sites, and leverage techniques from previous milestones to translate data dumps into KG.
+##### &nbsp; &nbsp; Step 3.1.1: Create methods to filter personally identifying information from public KGs.
 
-#### Part 3.3.: Present methods for searching through KG manifolds
-##### &nbsp; &nbsp; Step 3.3.1: 
+#### Part 3.2.: Visualize multiple KGs
+##### &nbsp; &nbsp; Step 3.2.1: Investigate the use of UMAP Uniform Manifold Approximation and Projection to project KG's onto 2-dimensional spaces.
+##### &nbsp; &nbsp; Step 3.2.2: Investigate the use of ML/AI to filter large scale KG's, and thereby resolve unique and information-rich 2-dimensional embeddings.
+##### &nbsp; &nbsp; Step 3.2.3: Provide clustering metrics to assist people in finding common-interest groups.
+##### &nbsp; &nbsp; Step 3.2.4: Explore the information-richness of path metrics between persons. The expectation here is that people may be connected via both mutual contacts, as well as via chains of non-person entities. The details of connecting paths may reveal avanues through which distantly connected people may find common ground.
+##### &nbsp; &nbsp; Step 3.2.5: Explore the presence of holes and cavities within the graph. The expectation, here, is that very long path distances between persons may be shortened by the addition of intermediate nodes. Such "graph completion" suggetions may aid in bringing people to find common ground.
 
 #### Impact:
 The long-term impact of mileston 3 promises to help people to realize themselves as members of a global civil society.
-From there, our continued development of PST should afford the global community with all the tools necessary to detail subjectively important aspects of the global political economy, as well as means to analaze and innovate upon the status quo.
+This impact is especially developed through Steps 3.2.4 and 3.2.5 which directly identify the degrees of disconnectivity between persons, while also suggesting how disconnected persons may better connect.
