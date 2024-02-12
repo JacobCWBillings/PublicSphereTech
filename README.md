@@ -30,14 +30,14 @@ Indeed, an expanding ecosystem of grassroots efforts is already under developmen
 The most critical of these efforts has constructed a distributed I/O network layer, i.e., distributed ledger technologies, on top of which are built distributed applications.
 These systems establish a high-utility/low-cost I/O network, via which any and all persons may interact with one another.
 Owing to their distributed nature, these networks are resistent to corruption at the scale of proportionally few people/groups.
-And, information accepted by very many people has a greater chance of being addressed by the broader population.
+Furthermore, information accepted by very many people has a greater chance of being addressed by the broader population.
 
 One problem faced by any growing network is effective knowledge management.
 Figure 2 displays one approach for organizing and analyzing scalable networks.
 Here, persons and entities are represented as nodes in a graph, while the relationships between persons/entities are represented as edges.
 This knowledge management system has the equivelent representation of a simple ledger, called a knowledge database, wherein each entry comprises a subject-predicate-object statement.
 Recomposing the ledger into a graphical format, called the knowledge graph, allows for a host of tools -- from machine learning and AI (especially Large-Language Models (LLMs)) -- to be recruited to analyze the network.
-This is in addition to being able to recruit standard tools for filtering and performing queries on the database (e.g. SPARQL).
+This is in addition to being able to recruit standard tools for filtering and performing queries on the database (e.g., SPARQL).
 
 The long-term goal of these efforts is to help detail and analyze a social graph network until it is a (sufficiently) complete representation of the global political economy. 
 The near-term goals described below serve to build incremental solutions to the engineering challenges of detailing and analyzing scalable social graph networks.
@@ -91,9 +91,9 @@ This community faces several key hurdles which are well-served by more adept inf
 - Hurdle 3: Once reviews are submitted, it is not always the case that proposal authors will immediately understand the importance of reviewer critiques.  
 
 Authors and reviewers, alike, are increasingly turning towards large-language models to assist them in the proposal process.
-However, the tendency for LLM's to hallucinate makes their routine use in mission-critical communications hazardous.
-Milestone 2, therefore, aims to formalize the use of LLM's in proposal authorship and review by treating the proposal as a deterministic data object that constrains the LLM's generative output.
-The most natural way of accomplishing this goal is to translate proposals into a data object that both humans and LLM's can understand, i.e., into a graph database.
+However, the tendency for LLMs to hallucinate makes their routine use in mission-critical communications hazardous.
+Milestone 2, therefore, aims to formalize the use of LLMs in proposal authorship and review by treating the proposal as a deterministic data object that constrains the LLMs generative output.
+The most natural way of accomplishing this goal is to translate proposals into a data object that both humans and LLMs can understand, i.e., into a graph database.
 The technical term for leveraging external graph databases to constrain LLM generative outputs is "Neuro-Symbolic Artificial Intelligence" (NSAI).
 
 NSAI leverages external Knowledge Bases (KB) and Knowledge Graphs (KG) to fine-tune generative responses. 
