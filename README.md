@@ -48,7 +48,7 @@ The near-term goals described below serve to build incremental solutions to the 
 
 ## Near-term Goals
 *Public Sphere Tech* (PST) comprises a suite of applications to facilitate scalable coordination. 
-Each application, described in the milestones below, builds towards the long-term vision of a "global public sphere," wherein a global citizenry auto-generates and, as self-interested individuals, assents to a set of equitable and sustainable norms.
+Each application, described in the milestones below, builds towards the long-term vision of a "global public sphere," wherein a global citizenry auto-generates and, as self-interested individuals, assents to an evolving set of equitable and sustainable norms.
 
 ### Milestone 1: I/O Systems Foundations: OriginTrail + SingularityNET (Month 1)
 A natural place to begin is with the integration of high-accessibility data storage systems and low-cost data analysis tools into a common framework.
