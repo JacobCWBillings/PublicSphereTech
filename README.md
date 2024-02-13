@@ -16,7 +16,7 @@ Examples of these communications systems include, e.g.: printing presses, telegr
 Owing to the high costs of building these systems, the few individuals who govern them will act as hubs, mediating interactions for non-hubs.
 These types of networks are termed "small-world."
 The term denotes the proliferation of local clustering (the tribes), alongside the existence of key long-range connections between clusters (the hubs).
-Critically, if the hubs themselves are clustered together, the small-world network posesses a "rich-club." <>
+If the hubs themselves are clustered together, the hubs are said to comprise a "rich-club."
 The rightmost panel leverages high-utility/low-cost communications systems -- e.g., digital networks -- which allow all people to coordinate, at will, with any and all other persons.
 This type of network may be considered "fully connected," albeit, with two provisions: 1) individuals communicate with one another via a mutually-accessible digital I/O communications backbone, and 2) individual interest/attention filters information flow between persons.
 
@@ -34,9 +34,9 @@ Furthermore, information accepted by very many people has a greater chance of be
 
 One problem faced by any growing network is effective knowledge management.
 Figure 2 displays one approach for organizing and analyzing scalable networks.
-Here, persons and entities are represented as nodes in a graph, while the relationships between persons/entities are represented as edges.
-This knowledge management system has the equivelent representation of a simple ledger, called a knowledge database, wherein each entry comprises a subject-predicate-object statement.
-Recomposing the ledger into a graphical format, called the knowledge graph, allows for a host of tools -- from machine learning and AI (especially Large-Language Models (LLMs)) -- to be recruited to analyze the network.
+Here, the nodes represent persons and non-person entities, while the edges between nodes represent actions/relationships between persons/entities.
+This knowledge management system has the equivelent representation of a simple ledger, called a knowledge database, in which each entry comprises a subject-predicate-object statement.
+Recomposing the ledger into a graphical format, called a knowledge graph, allows for a host of tools -- from machine learning and AI (especially Large-Language Models (LLMs)) -- to be recruited to analyze the network.
 This is in addition to being able to recruit standard tools for filtering and performing queries on the database (e.g., SPARQL).
 
 The long-term goal of these efforts is to help detail and analyze a social graph network until it is a (sufficiently) complete representation of the global political economy. 
