@@ -42,7 +42,7 @@ This is in addition to being able to recruit standard tools for filtering and pe
 The long-term goal of these efforts is to help detail and analyze a social graph network until it is a (sufficiently) complete representation of the global political economy. 
 The near-term goals described below serve to build incremental solutions to the engineering challenges of detailing and analyzing scalable social graph networks.
 
-| ![cGraph networks offer a means to express and analyze political economies.](/images/pAlpha_system.png "vSocial hieararchies are directly established by certain social network architectures.") |
+| ![cGraph networks offer a means to express and analyze political economies.](/images/pAlpha_system_v03.png "vSocial hieararchies are directly established by certain social network architectures.") |
 |:--:| 
 | *Figure 2* displays a sample social graph network. The network is built from three types of interacting features: _p_ are persons, _e_ are non-person entities, and _x_ are relationships between persons and/or entities. Hypothetically, this kind of graph network structure is flexible enough to account for any and all aspects of political economies. (A complete picture would be much more detailed than the example shown.) One useful feature of representing political economies as a graph network is that this representation is exactly that utilized in knowledge databases/knowledge graphs, wherein entities are connected via predicate relationships. Graph networks may be analyzed in a variety of ways. The most straightforward is via graph-query languages such as SPARQL. An alternate method considers that knowledge graphs are geometric objects. Thus, knowledge graphs support a wide variety of analytical tools from ML and AI.|
 
